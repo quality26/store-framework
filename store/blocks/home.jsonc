@@ -1,18 +1,18 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
+      "rich-text#hello",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row#main-container":{
-        "children": [
-          "info-card#rethink",
-          "flex-layout.col#main-container"
-        ]
-      }
+      "flex-layout.row#main-container"
     ]
   },
-  "rich-text": {
+  "flex-layout.row#main-container":{
+    "children": [
+      "flex-layout.col#main-container"
+    ]
+  },
+  "rich-text#hello": {
     "props": {
       "text": "**Hello, World!**" , 
       "textPosition": "RIGHT"
@@ -47,8 +47,10 @@
     } 
   },
   "flex-layout.col#main-container":{
+    "children":[
     "image#electronics",
     "image#major-appliance"
+    ]
   },
   "image#electronics": {
     "props": {
