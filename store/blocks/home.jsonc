@@ -4,7 +4,8 @@
       "rich-text#hello",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row#main-container"
+      "flex-layout.row#main-container",
+      "shelf#products"
     ]
   },
   "flex-layout.row#main-container":{
