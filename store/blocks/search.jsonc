@@ -17,7 +17,7 @@
  },
  "flex-layout.row#top": {
   "children": [
-    "total-products.v2s",
+    "total-products.v2",
     "order-by.v2"
   ]
 },
